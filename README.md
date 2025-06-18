@@ -6,6 +6,7 @@ Este projeto é um programa em Python que realiza automações simples no comput
 - Google
 - Caixa de entrada de e-mails
 - Site de notícias
-- (E outras funcionalidades em desenvolvimento)
+- Spotify
+- Discord
 
 A proposta é criar um assistente de rotina matinal ou de trabalho, facilitando o acesso a ferramentas e páginas web com apenas um clique.
