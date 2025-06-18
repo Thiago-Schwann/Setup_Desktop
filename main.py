@@ -10,7 +10,7 @@ pyautogui.FailSafeException
 
 SENHA_GOOGLE = os.getenv("SENHA_GOOGLE")
 
-#Abrir o OperaGX
+#Abrir o Google no OperaGX
 clica_imagem('icone_operagx')
 sleep(1)
 pyautogui.hotkey("ctrl", "shift", "n")
@@ -30,7 +30,7 @@ pyautogui.write("https://thenews.waffle.com.br/newsletter", interval=0.01)
 pyautogui.press("Enter")
 sleep(1)
 
-#Acessar o email
+#Acessar o Gmail
 pyautogui.hotkey("ctrl", "t")
 sleep(0.5)
 pyautogui.hotkey("ctrl", "l")
@@ -39,11 +39,22 @@ pyautogui.press("Enter")
 sleep(3)
 clica_imagem('login_gmail')
 sleep(3)
-pyautogui.write('thiag.carve@gmail.com')
+pyautogui.write('thiago092527@gmail.com')
 pyautogui.press("Enter")
 sleep(4)
 pyautogui.write(SENHA_GOOGLE)
 pyautogui.press("Enter")
+sleep(2)
+
+#Abrir o Spotify
+clica_imagem('icone_spotify')
+sleep(10)
+clica_imagem('playlist_lofi')
+sleep(2)
+clica_imagem('playlist_lofi_play_button')
+
+#Abrir Discord
+clica_imagem('icone_discord')
 
 
 
